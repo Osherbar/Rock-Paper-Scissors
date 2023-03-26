@@ -8,6 +8,8 @@ namespace r
 		{
 		string userChoice = "null";
 		string pcChoice = "null";
+        int pcScore = 0;
+        int userScore = 0;
 		int randPcChoise = 0;
         string[] pcOptions = { "rock", "paper", "scissors" };
 
@@ -41,6 +43,15 @@ namespace r
             {
                 return rand.Next(min, max);
             }
+        }
+
+        partial void ResetScorePush(NSButton sender)
+        {
+            pcScore = 0;
+            userScore = 0;
+            UserScore.StringValue = userScore.ToString();
+            PcScore.StringValue = pcScore.ToString();
+
         }
 
         partial void PaperPush(NSButton sender)
@@ -79,10 +90,14 @@ namespace r
                      (userChoice == "scissors" && pcChoice == "paper"))
             {
                 WinLoseStatus.StringValue = "You win!";
+                userScore += 1;
+                UserScore.StringValue = userScore.ToString();
             }
             else
             {
                 WinLoseStatus.StringValue = "You lose!";
+                pcScore += 1;
+                PcScore.StringValue = pcScore.ToString();
             }
 
         }

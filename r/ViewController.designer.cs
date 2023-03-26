@@ -19,6 +19,12 @@ namespace r
 		AppKit.NSTextField pcRandChoice { get; set; }
 
 		[Outlet]
+		AppKit.NSTextField PcScore { get; set; }
+
+		[Outlet]
+		AppKit.NSTextFieldCell UserScore { get; set; }
+
+		[Outlet]
 		AppKit.NSTextField WinLoseStatus { get; set; }
 
 		[Action ("MainTextField:")]
@@ -26,6 +32,9 @@ namespace r
 
 		[Action ("PaperPush:")]
 		partial void PaperPush (AppKit.NSButton sender);
+
+		[Action ("ResetScorePush:")]
+		partial void ResetScorePush (AppKit.NSButton sender);
 
 		[Action ("RockPush:")]
 		partial void RockPush (AppKit.NSButton sender);
@@ -52,6 +61,16 @@ namespace r
 			if (pcRandChoice != null) {
 				pcRandChoice.Dispose ();
 				pcRandChoice = null;
+			}
+
+			if (PcScore != null) {
+				PcScore.Dispose ();
+				PcScore = null;
+			}
+
+			if (UserScore != null) {
+				UserScore.Dispose ();
+				UserScore = null;
 			}
 
 			if (WinLoseStatus != null) {

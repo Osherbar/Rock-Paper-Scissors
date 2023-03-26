@@ -6,6 +6,21 @@
 	<dict/>
 	<key>com.apple.ibtool.document.notices</key>
 	<dict>
+		<key>1vH-jf-v5K</key>
+		<array>
+			<dict>
+				<key>affected-objects</key>
+				<array>
+					<string>1vH-jf-v5K</string>
+				</array>
+				<key>message</key>
+				<string>View is clipping its content</string>
+				<key>type</key>
+				<string>IBIssueTypeClippedContent</string>
+				<key>type-value</key>
+				<integer>13</integer>
+			</dict>
+		</array>
 		<key>M6G-Ym-zC0</key>
 		<array>
 			<dict>
@@ -23,6 +38,18 @@
 		</array>
 		<key>o3L-dc-FTm</key>
 		<array>
+			<dict>
+				<key>affected-objects</key>
+				<array>
+					<string>o3L-dc-FTm</string>
+				</array>
+				<key>message</key>
+				<string>View is clipping its content</string>
+				<key>type</key>
+				<string>IBIssueTypeClippedContent</string>
+				<key>type-value</key>
+				<integer>13</integer>
+			</dict>
 			<dict>
 				<key>affected-objects</key>
 				<array>

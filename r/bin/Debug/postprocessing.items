@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <_PostProcessingItem Include="r.app/Contents/MacOS/r">
+      <BCSymbolMapName>r.bcsymbolmap</BCSymbolMapName>
+      <NoDSymUtil>true</NoDSymUtil>
+      <dSYMSourcePathExists>false</dSYMSourcePathExists>
+      <NoSymbolStrip>true</NoSymbolStrip>
+      <dSYMInfoPlistRelativePath>r.app.dSYM\Contents\Info.plist</dSYMInfoPlistRelativePath>
+      <SymbolFile>/Users/osherbar/Projects/r/r/obj/Debug/mtouch-symbols.list</SymbolFile>
+      <DSymName>r.app.dSYM</DSymName>
+      <SourceProjectPath>/Users/osherbar/Projects/r/r</SourceProjectPath>
+    </_PostProcessingItem>
+  </ItemGroup>
+</Project>

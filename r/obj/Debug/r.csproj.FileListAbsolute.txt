@@ -1,0 +1,16 @@
+/Users/osherbar/Projects/r/r/bin/Debug/r.exe
+/Users/osherbar/Projects/r/r/bin/Debug/r.pdb
+/Users/osherbar/Projects/r/r/obj/Debug/actool/_PartialAppManifest.items
+/Users/osherbar/Projects/r/r/obj/Debug/actool/_BundleResourceWithLogicalName.items
+/Users/osherbar/Projects/r/r/obj/Debug/actool/_ProcessedImageAssetsPath.items
+/Users/osherbar/Projects/r/r/obj/Debug/ibtool/_BundleResourceWithLogicalName.items
+/Users/osherbar/Projects/r/r/obj/Debug/ibtool/_ProcessedInterfaceDefinitionsPath.items
+/Users/osherbar/Projects/r/r/obj/Debug/coremlc/_PartialAppManifest.items
+/Users/osherbar/Projects/r/r/obj/Debug/coremlc/_BundleResourceWithLogicalName.items
+/Users/osherbar/Projects/r/r/obj/Debug/coremlc/_ProcessedCoreMLModelsPath.items
+/Users/osherbar/Projects/r/r/obj/Debug/_ProcessedBundleResourcesPath.items
+/Users/osherbar/Projects/r/r/obj/Debug/_ProcessedContentPath.items
+/Users/osherbar/Projects/r/r/obj/Debug/r.csproj.AssemblyReference.cache
+/Users/osherbar/Projects/r/r/obj/Debug/r.csproj.CoreCompileInputs.cache
+/Users/osherbar/Projects/r/r/obj/Debug/r.exe
+/Users/osherbar/Projects/r/r/obj/Debug/r.pdb
